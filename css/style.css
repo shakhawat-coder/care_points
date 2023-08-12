@@ -65,3 +65,34 @@ header{
     color: #000;
     font-size: 20px;
 }
+
+/* ============Banner section ================= */
+#banner{
+    margin-bottom: 100px;
+    padding: 175px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url(../images/banner.jpg);
+}
+
+.banner_content{
+    text-align: center;
+}
+.banner_content h1{
+    font-size: 48px;
+    line-height: 1.2;
+}
+.banner_content p{
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 30px 0;
+}
+
+.btn, .btn-large, .btn-small, .btn-flat {
+    border-radius: 20px;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 16px;
+}
