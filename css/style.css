@@ -52,3 +52,16 @@ header{
     padding-bottom: 10px;
 }
 
+/* Navbar section  */
+.menu a{
+    color: #000;
+    font-weight: 600;
+}
+.social{
+    display: flex;
+    column-gap: 30px;
+}
+.social i{
+    color: #000;
+    font-size: 20px;
+}
