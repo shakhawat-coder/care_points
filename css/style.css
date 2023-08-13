@@ -22,6 +22,10 @@ ul,ol{
 .clr{
     clear: both;
 }
+.row{
+    margin: 0;
+    padding: 0;
+}
 
 /* Header section */
 header{
@@ -68,7 +72,6 @@ header{
 
 /* ============Banner section ================= */
 #banner{
-    margin-bottom: 100px;
     padding: 175px 0;
     background-position: center;
     background-repeat: no-repeat;
@@ -95,4 +98,50 @@ header{
     height: 36px;
     line-height: 36px;
     padding: 0 16px;
+}
+
+/* ==========service section============ */
+#service .row .col{
+    padding: 0;
+}
+.card{
+    margin: 0;
+    
+}
+.card.item1{
+    background: #43b1d2;
+}
+.card.item2{
+    background: #3fb6c6;
+}
+.card.item3{
+    background: #3cbbbb;
+}
+.card.item4{
+    background: #37c3a8;
+}
+.card .card-content {
+    padding: 80px 24px 50px;
+}
+.card-content{
+    text-align: center;
+}
+.sicon{
+    /* margin: ; */
+    margin: 0 auto;
+    text-align: center;
+    display: inline;
+    height: 75px;
+    width: 75px;
+    background: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;justify-content: center;
+}
+.card .card-title {
+    font-size: 24px;
+    font-weight: 600;
+}
+.card-content p{
+    line-height: 1.5;
 }
