@@ -7,4 +7,10 @@ document.addEventListener('DOMContentLoaded', function() {
         delay: 20,
         time: 3000
     });
+
+    
 })
+
+$(document).ready(function(){
+  $('.collapsible').collapsible();
+});
