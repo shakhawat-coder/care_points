@@ -340,3 +340,39 @@ header{
 #gallery img{
     margin-bottom: 20px;
 }
+
+/* ==============team section============ */
+#team{
+    padding: 120px 0 110px;
+}
+.team_wrapper{
+    text-align: center;
+}
+.member{
+    margin: 0 auto 30px;
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    background: #f4f3f1;
+    overflow: hidden;
+}
+.member_desc h6{
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.member_desc span{
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+#team .social{
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+#team .social i{
+    color: #226bc4;
+    padding: 0 10px;
+}
