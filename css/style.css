@@ -209,3 +209,51 @@ header{
     display: block;
     height: 100%;
 }
+
+/* ==============Counter section=========== */
+#counter{
+    background: url(../images/counterbg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+}
+.counter_wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.counter_item i{
+    font-size: 44px;
+    color: #c7b299;
+
+}
+.counter_item span{
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+    color: #ffffff;
+    padding: 10px 0 0px;
+    position: relative;
+}
+.counter_item span::after{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 50%;
+    height: 3px;
+    width: 40px;
+    background: #fff;
+    transform: translateX(-50%);
+}
+.counter_item p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 30px 0 0;
+    
+}
