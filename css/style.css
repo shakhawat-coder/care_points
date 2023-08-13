@@ -22,9 +22,26 @@ ul,ol{
 .clr{
     clear: both;
 }
-.row{
+/* .row{
     margin: 0;
     padding: 0;
+}
+.row .col{
+    padding: 0;
+    margin: 0;
+} */
+.section_header{
+    text-align: center;
+}
+.section_header h2{
+    font-size: 36px;
+    font-weight: 500;
+}
+.section_header p{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 150px;
+    line-height: 1.5;
 }
 
 /* Header section */
@@ -144,4 +161,51 @@ header{
 }
 .card-content p{
     line-height: 1.5;
+}
+
+/* ==============about us section============== */
+#about_us{
+    padding: 110px 0 40px;
+    position: relative;
+}
+
+.about_item_wrapper{
+    padding-top: 80px;
+}
+.about_item_wrapper .left{
+   padding-right: 70px;
+}
+.about_item_wrapper .right{
+   padding-left: 70px;
+}
+.about_item_header{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    padding-bottom: 10px;
+}
+.about_icon{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background: #226bc4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* float: left; */
+}
+.about_item p{
+    line-height: 1.5;
+    /* padding-right: 100px; */
+}
+.about_image{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 470px;
+}
+.about_image img{
+    display: block;
+    height: 100%;
 }
