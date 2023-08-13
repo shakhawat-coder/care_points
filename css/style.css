@@ -280,7 +280,43 @@ header{
     margin-top: 20px;
 }
 
-
+.collapsible {
+    border: none;
+    margin: .5rem 0 1rem 0;
+}
+ .collapsible {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
 .collapsible li{
     margin-bottom: 10px;
+}
+.collapsible-header {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    line-height: 1.5;
+    padding: 5px;
+    background-color: #32a0e0;
+    border: none;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 24px;
+}
+.collapsible-header span{
+    margin-left: 0px;
+    height: 40px;
+    width: 40px;
+    color: #32a0e0;
+    background: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.collapsible-header i {
+    width: 1rem;
+    font-size: 1rem;
+    margin-left: 1rem;
 }
