@@ -376,3 +376,58 @@ header{
     color: #226bc4;
     padding: 0 10px;
 }
+
+/* ==============Offer section========== */
+#offer{
+    background: #e2e2e2;
+    padding: 70px 0;
+}
+#offer .row{
+    margin: 0;
+}
+.offer_desc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 40px;
+}
+.offer_desc p{
+    font-style: 24px;
+    font-weight: 600;
+}
+
+/* =============Footer section========== */
+.page-footer {
+    padding-top: 60px;
+    color: #fff;
+    background-color: #171717;
+}
+footer h5{
+    padding-bottom: 30px;
+}
+.mail,.phone,.location{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    padding-bottom: 20px;
+}
+.mail i, .phone i ,.location i{
+    font-size: 30px;
+}
+.mail a{
+    display: block;
+    color:#ffffff;
+}
+.phone span{
+    display: block;
+}
+footer .social i{
+    color: #ffffff;
+}
+.quick_link li,.service_link li{
+    padding-bottom: 10px;
+}
+.quick_link li i,.service_link li i{
+    color: #32a0e0;
+    margin-right: 20px;
+}
