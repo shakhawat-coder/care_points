@@ -410,6 +410,7 @@ header{
 .offer_desc p{
     font-style: 24px;
     font-weight: 600;
+    line-height: 1.5;
 }
 
 /* =============Footer section========== */
@@ -423,6 +424,7 @@ footer h5{
 }
 .mail,.phone,.location{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     column-gap: 20px;
     padding-bottom: 20px;

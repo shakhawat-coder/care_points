@@ -95,7 +95,7 @@
     }
     /* ===============Gallery============= */
     #gallery{
-        padding: 50px 0;
+        padding: 50px 0 20px;
     }
     #gallery .gal_wrapper{
         padding: 20px 0 0; 
@@ -110,5 +110,30 @@
     }
     #gallery .section_header p {
         padding: 0;
+    }
+    /* ==============team section========== */
+    #team {
+        padding: 50px 0 30px;
+    }
+    #team .section_header p {
+        padding: 20px ;
+    }
+    /* ==========Offer section========= */
+    #offer {
+        padding: 40px 0;
+    }
+    .offer_desc{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .offer_desc p{
+        padding-bottom: 10px;
+    }
+    /* ===========footer section========== */
+    .page-footer {
+        padding-top: 20px;
+    }
+    footer h5 {
+        padding: 30px 0;
     }
 }
