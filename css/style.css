@@ -363,6 +363,11 @@ header{
 }
 .team_wrapper{
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* column-gap: 20px; */
 }
 .member{
     margin: 0 auto 30px;
