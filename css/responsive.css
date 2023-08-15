@@ -1,8 +1,47 @@
 @media (min-width:1201px) {
-    
+    .clr{
+        clear: none;
+    }
+    .container{
+        width: 1190px;
+        margin: 0 auto;
+    }
 }
 @media (min-width:993px) and (max-width:1200px) {
-    
+    .clr{
+        clear: none;
+    }
+    .container{
+        width: 960px;
+        margin: 0 auto;
+    }
+    #about_us{
+        padding: 80px 0 40px;
+    }
+    #about_us .section_header p {
+        padding: 20px 50px;
+    }
+    .about_icon {
+        height: 40px;
+        width: 40px;
+    }
+    .about_icon img{
+        width: 60%;
+    }
+    .about_item{
+        width: 300px;
+    }
+      /* ==============team section========== */
+      #team {
+        padding: 50px 0 30px;
+    }
+    #team .section_header p {
+        padding: 20px ;
+    }
+    .member {
+        height: 230px;
+        width: 230px;
+    }
 }
 @media (min-width:601px) and (max-width:992px) {
     /* ==========Header section=========== */
@@ -170,8 +209,9 @@
     }
 
     /* ============Service section========== */
-    .card .card-content {
+    #service .card .card-content {
         padding: 80px 0 50px;
+        /* margin-bottom: 20px; */
     }
     #service .card .card-content p {
         width: 300px;
@@ -228,6 +268,9 @@
     }
     #work .card_section a {
         margin: 20px 0 20px;
+    }
+    #work .card{
+        margin-bottom: 20px;
     }
     /* ===============Gallery============= */
     #gallery{
