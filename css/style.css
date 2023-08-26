@@ -289,12 +289,15 @@ header{
     text-align: left;
     padding: 20px 10px 50px;
 }
-#work .card .card-content h6{
+#work .card .card-content a{
     color: #171717;
+    font-size: 18px;
     padding-bottom: 10px;
+    font-weight: 500;
 }
 #work .card .card-content span{
     color: #0087be;
+    display: block;
 }
 #work .card .card-content p{
     padding-top: 20px;
@@ -441,8 +444,9 @@ footer h5{
     display: block;
     color:#ffffff;
 }
-.phone span{
+.phone a{
     display: block;
+    color: #ffffff;
 }
 footer .social i{
     color: #ffffff;
@@ -453,4 +457,7 @@ footer .social i{
 .quick_link li i,.service_link li i{
     color: #32a0e0;
     margin-right: 20px;
+}
+form input,form textarea{
+    color: #ffffff;
 }
